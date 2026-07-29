@@ -1,8 +1,8 @@
-# 🔄 QA Automation CI/CD Pipeline
+# 🔄 QA Automation CI/CD Orchestrator
 
 ## 📌 Project Overview
 
-This project demonstrates the implementation of a **Continuous Integration and Continuous Deployment (CI/CD) pipeline** using **GitHub Actions** to automatically execute QA automation workflows.
+This project demonstrates the implementation of a **Continuous Integration and Continuous Deployment (CI/CD) Orchestrator** using **GitHub Actions** to automatically execute QA automation workflows.
 
 The goal of this project is to integrate automated testing practices into the software development lifecycle, ensuring that tests can be executed automatically whenever changes are pushed to the repository.
 
