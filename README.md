@@ -1,4 +1,4 @@
-# 🔄 QA Automation CI/CD Pipeline
+# 🔄 QA Automation CI/CD Orchestrator
 
 ## 📌 Project Overview
 
