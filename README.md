@@ -43,20 +43,32 @@ The main objectives of this project are:
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 QA_Automation_CI_CD
 │
 ├── .github
 │   └── workflows
-│       └── playwright.yml
+│       ├── execute-playwright.yml
+│       └── execute-k6.yml
 │
-├── package.json
-├── package-lock.json
 └── README.md
 ```
 
+### 🔄 Workflows Description
+
+Each workflow includes:
+
+```text
+.github/workflows
+│
+├── execute-playwright.yml
+│   → Triggers the Playwright automation test workflow from the remote repository.
+│
+└── execute-k6.yml
+    → Triggers the k6 performance testing workflow from the remote repository.
+```
 ---
 
 # ⚙️ CI/CD Pipeline Workflow
