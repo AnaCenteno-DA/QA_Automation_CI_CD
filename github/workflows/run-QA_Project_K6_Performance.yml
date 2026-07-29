@@ -1,0 +1,16 @@
+name: Execute Remote K6
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-k6:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger k6 Repository
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: k6.yml
+          repo: AnaCenteno-DA/Performance_Testing_K6
+          token: ${{ secrets.PAT }}

@@ -1,0 +1,16 @@
+name: Execute Remote Playwright
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-playwright:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Playwright Repository
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: playwright.yml
+          repo: AnaCenteno-DA/Playwright_Enterprise_Framework
+          token: ${{ secrets.PAT }}
