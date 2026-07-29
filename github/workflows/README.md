@@ -35,13 +35,22 @@ This project is part of my **QA Automation Portfolio**, showcasing practical exp
 
 ## 📂 Project Structure
 
-```text
 QA_Automation_CI_CD
 │
 ├── .github
 │   └── workflows
-│       └── playwright.yml
+│       ├── execute-playwright.yml
+│       └── execute-k6.yml
 │
-├── package.json
-├── package-lock.json
 └── README.md
+
+
+Each workflows include"
+
+.github/workflows
+│
+├── execute-playwright.yml
+│   → Triggers the Playwright automation test workflow from the remote repository.
+│
+└── execute-k6.yml
+    → Triggers the k6 performance testing workflow from the remote repository.
