@@ -35,6 +35,7 @@ This project is part of my **QA Automation Portfolio**, showcasing practical exp
 
 ## 📂 Project Structure
 
+```text
 QA_Automation_CI_CD
 │
 ├── .github
@@ -43,10 +44,13 @@ QA_Automation_CI_CD
 │       └── execute-k6.yml
 │
 └── README.md
+```
 
+### 🔄 Workflows Description
 
-Each workflows include"
+Each workflow includes:
 
+```text
 .github/workflows
 │
 ├── execute-playwright.yml
@@ -54,3 +58,4 @@ Each workflows include"
 │
 └── execute-k6.yml
     → Triggers the k6 performance testing workflow from the remote repository.
+```
